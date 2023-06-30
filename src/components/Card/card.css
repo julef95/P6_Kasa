@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.card {
+    position : relative;
+    height: 340px;
+    width : 100%;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-content {
+    position: absolute;
+    left: 20px;
+    bottom : 20px;
+}
+  
+.card-title, .card-location {
+    margin : 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color : white;
+}

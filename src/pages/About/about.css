@@ -1,0 +1,29 @@
+.about-body {
+    width : 90%;
+    max-width : 1300px;
+    margin : 0 auto 0 auto;
+}
+
+.collapse-container {
+    display: flex;
+    flex-direction: column;
+    width : 82.5%;
+    margin : 50px auto 50px auto;
+    gap : 30px;
+}
+
+.collapse-container .collapse .collapse-header h1 {
+    font-size : 24px;
+}
+
+@media only screen and (max-width: 767px) {
+    .collapse-container {
+        width : 100%;
+        margin : 20px auto 0px auto;
+        gap : 20px;
+    }
+
+    .collapse-container .collapse .collapse-header h1 {
+    font-size : 13px;
+    }
+}

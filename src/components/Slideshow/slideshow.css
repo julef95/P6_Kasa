@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+}
+
+.slideshow {
+    position: relative;
+}
+
+.slideshow-photo {
+    height : 415px;
+    width: 100%;
+}
+  
+.slideshow-prev {
+    position: absolute;
+    top: 50%;
+    left : 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+  
+.slideshow-next {
+    position: absolute;
+    top: 50%;
+    right : 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slideshow-number {
+    position: absolute;
+    bottom : 25px;
+    left : 50%;
+    transform: translateX(-50%);
+
+    color: #FFF;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 767px) {
+    .slideshow-photo {height : 255px;
+    }
+
+    .slideshow-prev, .slideshow-next {
+        height :24px;
+    }
+
+    .slideshow-number {
+        display : none;
+    }
+}

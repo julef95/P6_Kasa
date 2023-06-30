@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.error-body {
+    width : 90%;
+    max-width : 1300px;
+    margin : 0 auto 0 auto;
+}
+
+.error-body h1, .error-body h2, .error-body a {
+    font-family: Montserrat;
+    text-align: center;
+    color: #FF6060;
+    
+}
+
+.error-body h1 {
+    margin-top : 139px;
+    margin-bottom : 139px;
+    font-size: 288px;
+    font-weight: 700;
+}
+
+.error-body h2 {
+    margin-top : 0;
+    margin-bottom : 139px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.error-body a {
+    display: flex;
+    justify-content: center;
+    margin-bottom : 139px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 767px) {
+    .error-body h1 {
+        margin-top : 113px;
+        margin-bottom : 113px;
+        font-size : 96px;
+    }
+
+    .error-body h2 {
+        margin-bottom : 113px;
+        font-size : 18px;
+    }
+
+    .error-body a {
+        margin-bottom : 113px;
+        font-size : 14px;
+    }
+}
