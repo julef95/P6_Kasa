@@ -32,3 +32,13 @@
     font-weight: 500;
     font-size: 48px;
 }
+
+@media only screen and (max-width: 767px) {
+    .banner {
+        border-radius: 10px;
+    }
+
+    .banner-photo {
+        border-radius: 10px;
+    }
+}

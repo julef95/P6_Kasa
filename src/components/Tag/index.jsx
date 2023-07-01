@@ -3,7 +3,7 @@ function Tag({ tags }) {
         <div className='tag-container'>
             {tags.map((tag, index) => (
                 <div key={index} className='tag'>
-                {tag}
+                    {tag}
                 </div>
             ))}
             </div>

@@ -13,7 +13,7 @@ function Collapse({ title, content }) {
     return (
         <div className="collapse">
             <div className="collapse-header">
-                <h1>{title}</h1>
+                <p className='collapse-title'>{title}</p>
                 {isOpen ? (
                 <img
                     src={flecheHaut}

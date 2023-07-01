@@ -7,11 +7,13 @@
 
 .slideshow {
     position: relative;
+    width: 100%;
 }
 
 .slideshow-photo {
     height : 415px;
     width: 100%;
+    object-fit: cover;
 }
   
 .slideshow-prev {

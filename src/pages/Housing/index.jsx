@@ -1,5 +1,5 @@
 import React from 'react';
-import {useParams, useNavigate} from 'react-router-dom';
+import {useParams, Navigate} from 'react-router-dom';
 import {housingList} from '../../datas/housingList';
 import Slideshow from '../../components/Slideshow';
 import Tag from '../../components/Tag';
@@ -10,10 +10,11 @@ import './housing.css';
 function Housing() { 
   const {id} = useParams();
   const housing = housingList.find((item) => item.id === id);
-  const navigate = useNavigate();
 
   if (!housing) {
-    navigate("/error");
+    return (
+      <Navigate to="/error" />
+    )
   }
 
   return (
